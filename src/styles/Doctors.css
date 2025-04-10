@@ -1,0 +1,199 @@
+.doctors-page {
+  padding: 32px;
+}
+
+.doctors-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.doctors-header input {
+  padding: 10px 12px;
+  width: 250px;
+  border: 1px solid #cce5f5;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.doctors-header button {
+  background-color: #007bc7;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.doctors-header button:hover {
+  background-color: #005e9c;
+}
+
+.doctors-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.doctors-table th,
+.doctors-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0f2ff;
+}
+
+.action-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-icon {
+  color: #007bc7;
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: #e53935;
+  cursor: pointer;
+}
+
+.doctors-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.doctors-modal-box {
+  position: relative;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  width: 420px;
+  box-shadow: 0 4px 20px rgba(0, 123, 199, 0.2);
+}
+
+.doctors-modal-box h3 {
+  margin-bottom: 20px;
+  color: #007bc7;
+  font-size: 20px;
+  text-align: center;
+}
+
+.doctors-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 30px;
+  color: #007bc7;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.doctors-modal-close:hover {
+  color: #004574;
+}
+
+.doctors-modal-box input,
+.doctors-modal-box select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #cce5f5;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.doctors-modal-label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.doctors-modal-day-selection {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.doctors-modal-day-card {
+  flex: 1 1 calc(30% - 10px);
+  text-align: center;
+  padding: 8px 0;
+  border: 1px solid #cce5f5;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f8fbff;
+  color: #007bc7;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.doctors-modal-day-card.selected {
+  background-color: #007bc7;
+  color: white;
+  font-weight: 500;
+}
+
+.doctors-modal-time-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.doctors-modal-time-row input,
+.doctors-modal-time-row select {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #cce5f5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  appearance: none;
+}
+
+.doctors-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.doctors-modal-actions button {
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.doctors-modal-actions button:first-child {
+  background-color: #007bc7;
+  color: white;
+}
+
+.doctors-modal-actions button:first-child:hover {
+  background-color: #005e9c;
+}
+
+.doctors-modal-actions .cancel-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Khizer Hussain Junaidy",
+    "specialty": "Cardiologist",
+    "availability": "Mon, Wed, Fri - 10:00 AM to 2:00 PM"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ravi Kumar",
+    "specialty": "Dermatologist",
+    "availability": "Tue, Thu - 2:00 PM to 6:00 PM"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Meena Joseph",
+    "specialty": "Pediatrician",
+    "availability": "Mon to Sat - 9:00 AM to 1:00 PM"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Farhan Shaikh",
+    "specialty": "Neurologist",
+    "availability": "Tue, Thu - 11:00 AM to 3:00 PM"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Nisha Reddy",
+    "specialty": "Gynecologist",
+    "availability": "Mon to Fri - 1:00 PM to 5:00 PM"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Karthik Menon",
+    "specialty": "Orthopedic",
+    "availability": "Wed, Sat - 3:00 PM to 7:00 PM"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Sneha Pillai",
+    "specialty": "ENT Specialist",
+    "availability": "Mon, Tue, Thu - 10:00 AM to 12:00 PM"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Rohan Batra",
+    "specialty": "Urologist",
+    "availability": "Tue, Fri - 2:00 PM to 6:00 PM"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Fatima Noor",
+    "specialty": "Psychiatrist",
+    "availability": "Mon, Wed, Fri - 4:00 PM to 8:00 PM"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Arvind Deshmukh",
+    "specialty": "Nephrologist",
+    "availability": "Thu, Sat - 9:00 AM to 1:00 PM"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Priya Iyer",
+    "specialty": "Oncologist",
+    "availability": "Mon to Thu - 11:00 AM to 3:00 PM"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Zaid Ahmed",
+    "specialty": "Endocrinologist",
+    "availability": "Tue, Fri - 12:00 PM to 4:00 PM"
+  },
+  {
+    "id": 13,
+    "name": "Dr. Sheetal Joshi",
+    "specialty": "Pulmonologist",
+    "availability": "Mon, Wed, Sat - 3:00 PM to 6:00 PM"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Manish Sinha",
+    "specialty": "Rheumatologist",
+    "availability": "Tue, Thu - 10:00 AM to 2:00 PM"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Aarti Verma",
+    "specialty": "Hematologist",
+    "availability": "Wed, Fri - 1:00 PM to 4:00 PM"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Ajay Patil",
+    "specialty": "Gastroenterologist",
+    "availability": "Mon to Fri - 5:00 PM to 9:00 PM"
+  },
+  {
+    "id": 17,
+    "name": "Dr. Bhavna Kapoor",
+    "specialty": "Dermatologist",
+    "availability": "Tue, Thu, Sat - 10:00 AM to 1:00 PM"
+  },
+  {
+    "id": 18,
+    "name": "Dr. Deepak Malhotra",
+    "specialty": "General Physician",
+    "availability": "Everyday - 9:00 AM to 12:00 PM"
+  },
+  {
+    "id": 19,
+    "name": "Dr. Simranjeet Kaur",
+    "specialty": "Radiologist",
+    "availability": "Mon, Wed - 2:00 PM to 6:00 PM"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Harish Rao",
+    "specialty": "Anesthesiologist",
+    "availability": "Tue, Thu - 11:00 AM to 2:00 PM"
+  }
+]

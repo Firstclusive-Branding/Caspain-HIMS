@@ -1,0 +1,13 @@
+.app-layout {
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 32px;
+  width: calc(100% - 220px);
+  overflow-y: auto;
+  background-color: #f8fbff;
+}
