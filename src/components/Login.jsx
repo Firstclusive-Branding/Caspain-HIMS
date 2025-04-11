@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/Login.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import logo from "../assets/Caspian.png";
 
 const Login = ({ onLogin }) => {
   const [email, setEmail] = useState("");
@@ -9,7 +10,6 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     const validEmail = "admin@caspian.com";
     const validPassword = "1234";
 
@@ -21,9 +21,12 @@ const Login = ({ onLogin }) => {
   };
 
   return (
-    <div className="login-container">
+    <section className="login-page-container">
+      <div className="login-logo-container">
+        <img src={logo} alt="caspian logo" />
+      </div>
       <div className="login-box">
-        <h2 className="login-title">Caspian Healthcare Admin</h2>
+        <h1 className="login-title">Login to Your Account</h1>
         <form onSubmit={handleSubmit} className="login-form">
           <input
             type="email"
@@ -39,11 +42,17 @@ const Login = ({ onLogin }) => {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
+          <div className="login-forgot-password-container">
+            <a href="#">Forgot Password?</a>
+          </div>
           <button type="submit">Login</button>
         </form>
-        <p className="login-footer">Where Health Meets Expertise</p>
+        <div className="sign-up-container">
+          <p>Don't have an account?</p>
+          <a href="#">Sign up</a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

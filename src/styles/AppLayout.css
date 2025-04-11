@@ -5,9 +5,8 @@
 }
 
 .main-content {
-  margin-left: 220px;
-  padding: 32px;
+  margin-left: 250px;
   width: calc(100% - 220px);
-  overflow-y: auto;
-  background-color: #f8fbff;
+  /* overflow-y: auto; */
+  background-color: #ebf0f5;
 }

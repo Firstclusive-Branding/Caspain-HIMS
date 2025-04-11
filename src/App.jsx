@@ -42,7 +42,30 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <ToastContainer position="top-center" autoClose={3000} />
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        toastStyle={{
+          backgroundColor: "#ffffff",
+          color: "#333",
+          fontSize: "15px",
+          fontWeight: 500,
+          padding: "12px 16px",
+          borderLeft: "6px solid #007bc7",
+          boxShadow: "0 2px 10px rgba(0, 123, 199, 0.15)",
+          borderRadius: "8px",
+        }}
+        progressStyle={{
+          background: "#007bc7",
+        }}
+      />
     </>
   );
 }
